@@ -1,0 +1,46 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.so
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+*.egg-info/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+.history/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Data
+data/*.csv
+data/*.parquet
+data/*.zip
+*.h5
+*.db
+
+# Logs
+*.log
+
+# Build / dist
+build/
+dist/
+*.egg
+*.manifest
+*.spec
+
+# Other
+*.swp
